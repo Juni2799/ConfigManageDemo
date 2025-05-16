@@ -3,3 +3,11 @@ spring:
     name: config-demo
   profiles:
     active: prod
+
+build:
+  id: 4
+  version: 4.1
+  info: Default-Build
+
+main-build:
+  id: 123
