@@ -1,13 +1,15 @@
 spring:
   application:
-    name: config-demo
+    name: configdemo
+  config:
+    import: optional:configserver:http://localhost:8888
   profiles:
     active: prod
 
 build:
   id: 4
-  version: 4.1
-  info: Default-Build
+  version: 4.2
+  info: Default-App-Build
 
 main-build:
   id: 123
